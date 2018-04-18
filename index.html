@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+		
+		<script src="js/scrollspy.js"></script>
+
+		<link rel="stylesheet" href="css/index.css">
+		<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	</head>
+	<body data-spy="scroll" data-target="#myScrollspy" data-offset="70">
+		<nav id="myScrollspy" class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<a style="font-size:4em; color:white" class="navbar-brand" href="#intro-page">
+						<i class="fab fa-speakap"></i>
+				</a>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#intro-page">Home</a></li>
+					<li><a href="#portfolio-page">Portfolio </a></li>
+					<li><a href="#contact-page">Contact </a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="intro-page">
+			<div class="container">
+				<div id="intro">
+					<h1>I'm Santhosh, I design & build</h1>
+					<br>
+					<div class = "typewriter">
+						<h1>Web applications.</h1>
+					</div>
+				</div>
+				<a id="go-down" href="#portfolio-page" style="color:tomato"><i class="fas fa-angle-down fa-3x"></i></a>
+			</div>
+		</div>
+		<div id="portfolio-page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<a href="https://codepen.io/santhosh156/full/dmXbda/" target="_blank"><img src="images/tribute-project.jpeg" alt="Tribute-project" style="width:100%"></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<a href="https://codepen.io/santhosh156/full/dmXbda/" target="_blank"><img src="images/portfolio-project.jpeg" alt="Tribute-project" style="width:100%"></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<a href="https://codepen.io/santhosh156/full/dmXbda/" target="_blank"><img src="images/fruit-ninja.jpeg" alt="Tribute-project" style="width:50%"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<a href="https://codepen.io/santhosh156/full/dmXbda/ target="_blank""><img src="images/furn-barn.jpeg" alt="Tribute-project" style="width:57%"></a>
+						</div>	
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<a href="https://codepen.io/santhosh156/full/dmXbda/" target="_blank"><img src="images/kovai-sandhai.jpeg" alt="Tribute-project" style="width:100%"></a>
+						</div>	
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<a href="https://codepen.io/santhosh156/full/dmXbda/" target="_blank"><img src="images/roots.png" alt="Tribute-project" style="width:50%"></a>
+						</div>	
+					</div>
+				</div>
+				<a id="go-down" href="#contact-page" style="color:tomato"><i class="fas fa-angle-down fa-3x"></i></a>
+			</div>
+		</div>
+		<div id="contact-page">
+			<div id="contact-panel" class="panel panel-default">
+				<form class="form-horizontal">
+					<h1 id="contact-me">Contact me</h1>
+					<div class="form-group">
+						<label for="name" class="col-sm-1 control-label">Name</label>
+						<div class="col-sm-5">
+							<input type="text" class="form-control" id="name" placeholder="Name">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email" class="col-sm-1 control-label">Email</label>
+						<div class="col-sm-5">
+							<input type="email" class="form-control" id="email" placeholder="Email">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="message" class="col-sm-1 control-label">Message</label>
+						<div class="col-sm-5">
+							<textarea class="form-control" rows="5" id="message" placeholder="What's your message for me ?"></textarea>
+						</div>	
+					</div>
+					<div class="form-group">
+						<div class="col-xs-offset-1 col-sm-2">
+							<button type="submit" class="btn btn-danger">Send</button>
+						</div>
+					</div>
+				</form>
+				<div id="touch-panel" class="panel panel-default text-center">
+					<div class="form-group">
+						<h2 id="get-in-touch">Get In Touch</h2>
+						<div class="form-group">
+							<h4>Phone: <small>+1 415-867-8424</small></h5>
+							<h4>Email: <small>santhosh156@gmail.com</small></h4>
+						</div>
+						<div class="social-links" style="color: tomato">
+							<a href="https://github.com/santhosh156" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+							<a href="https://www.linkedin.com/in/santhosh156/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+							<a href="https://www.facebook.com/profile.php?id=783544710" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+							<a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+							<a href="https://plus.google.com/u/1/+SanthoshKumar156" target="_blank"><i class="fab fa-google-plus-square fa-3x"></i></a>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
