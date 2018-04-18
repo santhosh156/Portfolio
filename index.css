@@ -1,0 +1,136 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    position: relative; 
+}
+  
+#intro-page {
+	margin-top: -100px;
+    /* The image used */
+    background-image: url("../images/know_me1.jpeg");
+
+    /* Full height */
+    height: 120%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav > a {
+	color: white;
+}
+
+.navbar {
+	font-family: 'Shrikhand';
+	font-size: 20px;
+}
+
+.container {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: White;
+	font-family: 'Gugi', cursive;
+}
+
+#intro {
+	align-self: center;
+	margin-top: auto;
+	margin-bottom: 200px;
+	justify-content: center;
+}
+
+#go-down {
+	align-self: center;
+	margin-bottom: 50px;
+}
+
+.typewriter h1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white;  /*The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+#portfolio-page {
+    background-image: url("../images/portfolio.jpeg");
+
+    /* Full height */
+    height: 105%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-page {
+    background-image: url("../images/contacts.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding: 100px;
+}
+
+#contact-panel {
+	margin-left: 50px;
+	height: 500px;
+	width: 1000px;
+	font-family: 'Slabo 27px', serif;
+	background-color: MintCream	;
+}
+
+.form-group {
+	padding: 10px;
+}
+
+.form-horizontal {
+	padding-top: 20px;
+}
+
+#touch-panel {
+	margin-top:-400px;
+	margin-left: 550px;
+	height: 400px;
+	width: 400px;
+	padding-left: 10px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#contact-me {
+	padding-left: 20px;
+}
+
+.social-links > a {
+	color:tomato;
+	margin-top: 50px;
+	margin-left: 20px;
+}
